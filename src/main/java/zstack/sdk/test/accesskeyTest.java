@@ -1,4 +1,6 @@
-package java.sdk.test;
+package zstack.sdk.test;
+
+import org.zstack.sdk.*;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -81,7 +83,7 @@ public class accesskeyTest {
         );
 
 
-        final VmAPITest test = new VmAPITest();
+        final accesskeyTest test = new accesskeyTest();
         test.createVm("shixin-1");
 
         /*
