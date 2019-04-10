@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Class-Path: commons-codec-1.9.jar spring-aop-4.0.3.RELEASE.jar gson-2.
+ 1.jar spring-context-4.0.3.RELEASE.jar commons-logging-1.2.jar spring
+ -web-4.0.3.RELEASE.jar spring-expression-4.0.3.RELEASE.jar okio-1.11.
+ 0.jar aopalliance-1.0.jar commons-beanutils-1.9.3.jar sdk-3.4.0.jar s
+ pring-beans-4.0.3.RELEASE.jar spring-core-4.0.3.RELEASE.jar commons-c
+ ollections-3.2.2.jar okhttp-3.5.0.jar
+Main-Class: zstack.sdk.test.accesskeyTest
+

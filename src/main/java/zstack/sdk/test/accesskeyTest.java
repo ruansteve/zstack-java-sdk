@@ -1,4 +1,6 @@
-package java.sdk.test;
+package zstack.sdk.test;
+
+import org.zstack.sdk.*;
 
 import org.zstack.sdk.*;
 
