@@ -1,6 +1,4 @@
-package zstack.sdk.test;
-
-import org.zstack.sdk.*;
+package org.zstack.sdk.test;
 
 import org.zstack.sdk.*;
 
@@ -76,7 +74,7 @@ public class accesskeyTest {
 
     public static void main(String[] args) {
         ZSClient.configure(
-                new ZSConfig.Builder().setHostname("10.86.4.243").setPort(8080).setContextPath("zstack")
+                new ZSConfig.Builder().setHostname("172.24.244.220").setPort(8080).setContextPath("zstack")
                         .setDefaultPollingInterval(100, TimeUnit.MILLISECONDS)
                         .setDefaultPollingTimeout(TimeUnit.MINUTES.toMillis(15), TimeUnit.MILLISECONDS)
                         .setReadTimeout(10, TimeUnit.MINUTES)
